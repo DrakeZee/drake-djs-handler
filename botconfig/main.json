@@ -1,0 +1,26 @@
+{
+  "clienttoken": "",
+
+  "Note_Token:":"Put Your Bot Token Above (If your using replit then make a new secret 'clienttoken' and put ur bot token there... and then keep this string empty)",
+
+  "clientname": "Your Bot Name",
+
+  "clientid": "Your Bot ID",
+
+  "TestingServerID": "Your Server ID",
+
+  "clientavatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOfQ_Mry9O3XF-v92UqhdvpUhkqEsLt73uo8ADhnYH6rmAzy6uyeq8WRrBR-4HY8qLux8&usqp=CAU",
+
+  "prefix": "?",
+
+  "developerID": ["Your ID","ID2","ID3","ID4"],
+
+  "colorthemecode":"#FF5733 (Not Neccessary.)",
+  
+  "randomMessages_Cooldown": ["Slow It Down Fam...", "Spam Isn't Cool Fam....", "Get Premium dude...", "Never Gonna Let You Down","Subscribe To DrakeZee lol"],
+
+
+  "NOTE:" : "IF YOU DONT PUT STUFF HERE IT WILL THROW ERRS"
+}
+
+
