@@ -1,0 +1,23 @@
+{
+    "name": "djs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "test": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "discord.js": "^13.1.0",
+        "glob": "^7.2.0",
+        "install": "^0.13.0",
+        "ms": "^2.1.3"
+    },
+    "devDependencies": {
+        "node": "^16.10.0"
+    }
+}
