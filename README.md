@@ -88,9 +88,6 @@ and a different folder named basic [lowercase only].
 Here's my json file... i wanted to have no emoji for developers folder and wanted a thumbsup emoji for basic folder. Note that i have used not used :thumbsup: because it wont work...
 You just need to mention your folders in help.json like that and your ready to use help command! if you find this hard, Just delete help command and help.json i guess....
 
-![xd3](https://media.discordapp.net/attachments/884758267107106861/903675585686016051/unknown.png)
-
-Result Above.
 
 
 `Questions About Help Command`
