@@ -27,6 +27,9 @@ If your having errors then you didn't follow this big guide :)
 - If your having `node:events` error then update your node version.   [Support Server](https://dsc.gg/botsway)
 
 
+- If your using SlashCommands for your bot using this handler, Please make sure to **Invite your bot from discord.dev Oauth Section with `application.commands` scope**! ([Learn more](https://discordjs.guide/interactions/registering-slash-commands.html#guild-commands))
+
+
 - Put Your Bot Token in `./botconfig/main.json` inside the clienttoken string. If your using replit, it's suggested to keep your token in env. So leave the string empty and make new secret inside Secrets, name it `clienttoken` and put your token inside it. Either you can go to `index.js` And Set It There (Not Recommended). 
 
 

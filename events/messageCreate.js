@@ -51,7 +51,7 @@ client.on("messageCreate", async (message) => {
          .setColor("RED")
          .setFooter(`${clientname}`, `${clientavatar}`)
          .setTimestamp();
-      return message.reply({ embeds: userperms_embed });
+      return message.reply({ embeds: [userperms_embed] });
    } else if (!message.guild.me.permissions.has(command.botpermissions || [])) {
       let botperms_embed = new MessageEmbed()
          .setTitle(`:x: | I Don't Have Permissions To Use The Command!`)
