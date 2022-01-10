@@ -3,11 +3,9 @@ const client = require("../index");
 client.on("interactionCreate", async (interaction) => {
    // ———————————————[Slash Commands]———————————————
    if (interaction.isCommand()) {
-      await interaction.deferReply({ ephemeral: false }).catch(() => {});
-
-      const cmd = client.slashCommands.get(interaction.commandName);
-      if (!cmd)
-         return interaction.followUp({ content: "An error has occured " });
+      const command = client.slashCommands.get(interaction.commandName);
+      if (!command)
+         return interaction.reply({ content: "An error has occured " });
 
       const args = [];
 
@@ -23,7 +21,7 @@ client.on("interactionCreate", async (interaction) => {
          interaction.user.id
       );
 
-      cmd.run(client, interaction, args);
+      command.run(client, interaction, args);
    }
    // ———————————————[Buttons]———————————————
    if (interaction.isButton()) {
